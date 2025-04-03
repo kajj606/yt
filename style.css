@@ -1,0 +1,256 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #181818;
+    color: #E5E5E5;
+    display: flex;
+  }
+  
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    position: fixed; 
+    background-color: #181818;
+    width: 100%;
+    height: 7%;
+}
+
+.logoz {
+    position: absolute;
+    left: 10px;
+}
+
+.logos {
+    width: 65px;
+    height: 55px;
+}
+
+.navegador {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   border-top-left-radius: 35px;
+   border-bottom-left-radius: 35px;
+   border-bottom-right-radius: 0;
+   border-top-right-radius: 0;
+   height: 42px;
+   background-color: #181818;
+   color: white;
+   text-align: start;
+   width: 23%;
+   margin-top: 9px;
+   padding-left: 20px;
+}
+
+.button2 {
+    background-color: #333333;
+    cursor: pointer;
+    color: white;
+    height: 45px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-top: 9px;
+    text-align: center;
+}
+
+.lupa {
+    width: 32px;
+    height: 26px;
+}
+
+.pfp {
+  border-radius: 50%;
+  display: flex;
+  right: 0;
+  top: 0;
+  position: absolute;
+  height: 38px;
+  width: 45px;
+  margin-right: 19px;
+  margin-top: 14px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.o-youtuber {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.icon {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.channel {
+    color: white;
+    margin-top: 5px;
+}
+
+
+  .container {
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+  
+ .thumb1 {
+    width: 88%;
+    height: 650px;
+ }
+  
+  .video-info {
+    margin-top: 15px;
+  }
+  
+  .infos {
+   display: flex;
+   flex-direction: row;
+   gap: 15px;
+  }
+
+  .button1 {
+    border-radius: 20px;
+    color: black;
+    height: 35px;
+    text-align: center;
+    width: 120px;
+  }
+
+  .video-info h1 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+  }
+  
+  .video-info .channel {
+    font-size: 1rem;
+    color: #E5E5E5;
+  }
+  
+  .video-info .views {
+    font-size: 0.9rem;
+    color: #E5E5E5;
+  }
+  
+  .description {
+    margin-top: 20px;
+    background-color: #3C3C3C;
+    width: 75%;
+    border-radius: 20px;
+    height: 60px;
+    text-align: start;
+  }
+  
+  .description p {
+    font-size: 1rem;
+    color: #E5E5E5;
+    margin-left: 12px;
+    margin-top: 5px;
+  }
+  
+   .pp {
+    margin-top: 4px;
+   }
+
+  .comments-section {
+    margin-top: 40px;
+  }
+  
+  .comments-section h2 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+  }
+  
+  .comment {
+    background-color: #fff;
+    width: 65%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comment p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .comment strong {
+    font-weight: bold;
+  }
+  
+  .add-container {
+    display: flex;
+  }
+
+  .add-filho {
+    background-color: #181818;
+    border-right: 2px white;
+    border-top: none;
+    border-left: none;
+    text-decoration: none;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 45%;
+    color: #E5E5E5;
+  }
+
+  .aside-container {
+    display: block;
+    flex-direction: column;
+    justify-content: right;
+    margin-top: 55px;
+    margin-right: 80px;
+    padding-top: 20px;
+  }
+
+  .Thumb {
+    width: 240px;
+    height: 135px;
+    margin-top: 30px;
+  }
+
+  .videos {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .titulo {
+    color: white;
+    display: flex;
+    margin-top: 36px;
+    max-width: 120px;
+    text-align: center;
+    flex-direction: column;
+  }
+
+.princp {
+    margin-right: 30px;
+    font-size: medium;
+}
+
+.infoz {
+    color: #A1A1A1;
+}
+
+.princpf {
+    font-size: small;
+}
